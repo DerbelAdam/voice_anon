@@ -6,6 +6,16 @@ Projet tuteuré : *Module IA de conversion de voix en vue d'anonymiser le locute
 L'application change **l'identité** d'une voix (le timbre) tout en conservant **ce qui porte la
 pathologie** : durée, pauses, intonation, volume, contenu.
 
+<p align="center">
+  <img src="docs/courbes_exemple.png" width="49%" alt="Courbes du rapport : forme d'onde, spectrogrammes, contour de F0 et énergie, entrée vs sortie">
+  <img src="docs/rapport_exemple.png" width="49%" alt="Haut du rapport HTML : verdict, écoute, paramètres, identité et règles R1–R5">
+</p>
+
+*Exemple de rapport sur une voix publique LibriSpeech (dev-clean, locuteur 1272, extrait
+`1272-128104-0002`) — aucune voix de patient. À gauche, la figure du rapport : les pauses (en jaune),
+le contour de F0 et l'énergie de la sortie suivent ceux de l'entrée, alors que le timbre change. À
+droite, le haut du rapport HTML : verdict, paramètres, empreinte vocale et vérification des règles.*
+
 ## Les deux commandes
 
 ```powershell
