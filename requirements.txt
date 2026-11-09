@@ -1,0 +1,13 @@
+# PyTorch : installer d'abord torch + torchaudio avec la commande de https://pytorch.org (version CUDA)
+torch>=2.1
+torchaudio>=2.1
+numpy
+scipy
+librosa>=0.10
+soundfile
+praat-parselmouth
+matplotlib
+# Optionnel : intelligibilité (R5)
+openai-whisper
+# Optionnel : conversion de datasets .parquet en .wav (parquet_vers_wav.py)
+pyarrow

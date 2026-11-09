@@ -1,0 +1,22 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Modèles et code tiers : retéléchargés par setup_models.py
+models/
+third_party/
+
+# Calculs et résultats (contiennent des voix)
+cache/
+results/
+_archives/
+
+# Audio et données : jamais sur GitHub (données de patients)
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.parquet
+*.tar.gz
+*.part
